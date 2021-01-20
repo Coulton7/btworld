@@ -2,7 +2,7 @@ type: theme
 base theme: aesbased8
 core: 8.x
 core_version_requirement: ^8 || ^9
-version: 1.1
+version: 1.2
 
 name: 'Betterworld'
 description: 'Betterworld site theme'
