@@ -8,6 +8,7 @@ name: 'Betterworld'
 description: 'Betterworld site theme'
 package: 'Bootstrap'
 
+regions:
   advertising_board: 'Advertising Board'
   logo: 'Logo'
   navigation: 'Navigation'
