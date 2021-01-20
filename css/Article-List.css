@@ -1,0 +1,120 @@
+.article-list {
+  color: #535354;
+  background-color: #ffffff;
+  margin-bottom: -1px;
+  padding-top: 2em;
+  /*padding-bottom: 2em;*/
+}
+
+.article-list p {
+  color: #535354;
+}
+
+.article-list h2 {
+  /*margin-bottom: 40px;*/
+  padding-top: 40px;
+  color: inherit;
+}
+
+.article-list .intro {
+  /*max-width: 500px;*/
+  margin: 0 auto;
+}
+
+.article-list .intro p {
+  margin-bottom: 0;
+}
+
+.article-list .articles {
+  padding-bottom: 40px;
+}
+
+.article-list .item {
+  /*padding-top: 50px;*/
+  text-align: center;
+}
+
+.article-list .item .name {
+  margin-top: 20px;
+  color: inherit;
+}
+
+.article-list .item .description {
+  margin-top: 15px;
+  margin-bottom: 0;
+}
+
+.article-list .item .action {
+  width: 24px;
+  margin: 22px auto 0;
+  line-height: 1;
+  display: block;
+  /*color: #4f86c3;*/
+  /*opacity: 0.85;*/
+  transition: opacity 0.2s;
+  text-decoration: none;
+}
+
+.article-list .item .action:hover {
+  opacity: 1;
+}
+
+.black-background {
+  background-color: #000;
+  color: #ffffff;
+}
+
+.sepia-background {
+  background-color: #e2d8bf;
+}
+
+.backgroundVideo {
+  object-fit: cover;
+}
+
+.img-40 {
+  max-width: 40%;
+}
+
+.text-green {
+  color: #4cb460;
+}
+
+#panellinks {
+}
+
+.white-leaf {
+  margin-bottom: -100px;
+  margin-left: -100px;
+}
+
+.row.darkgrey-background {
+  background-color: #bfc1b8;
+  color: white;
+}
+
+.text-shadow {
+  text-shadow: 2px 1px 2px #010101;
+  font-weight: 600;
+}
+
+#referencelinks {
+  background-image: url(../../assets/img/lightgreen-parking.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-transition: .15s ease-in-out;
+  -moz-transition: .15s ease-in-out;
+  -o-transition: .15s ease-in-out;
+  -webkit-transition-property: background-position;
+  -moz-transition-property: background-position;
+  -o-transition-property: background-position;
+}
+
+@media (max-width:767px) {
+  .article-list h2 {
+    margin-bottom: 25px;
+    padding-top: 25px;
+  }
+}

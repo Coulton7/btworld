@@ -1,0 +1,57 @@
+framework:
+  css:
+    theme:
+      /themes/aesbased8/css/jquery.scrolling-tabs.min.css: {}
+      /themes/aesbased8/css/chosen.css: {}
+      /themes/aesbased8/css/fonts-style.css: {}
+      /themes/aesbased8/css/regions-style.css: {}
+      /themes/aesbased8/css/block-style.css: {}
+      /themes/aesbased8/css/field-style.css: {}
+      css/Testimonials.css: {}
+      css/Footer-Dark.css: {}
+      css/Article-List.css: {}
+      css/style.css: {}
+  js:
+    /themes/aesbased8/js/logoscroll.js: {}
+    /themes/aesbased8/js/smooth-scroll.js: {}
+    /themes/aesbased8/js/fade-text.js: {}
+    /themes/aesbased8/js/contact-icon.js: {}
+    /themes/aesbased8/js/nav-btn.js: {}
+    /themes/aesbased8/js/reg-mark.js: {}
+    /themes/aesbased8/js/slider-options.js: {}
+    /themes/aesbased8/js/pdfmake.js: {}
+    /themes/aesbased8/js/pdfcreator.js: {}
+    /themes/aesbased8/js/vfs_fonts.js: {}
+    /themes/aesbased8/js/pdf-button-hider.js: {}
+    dependencies:
+      - core/jquery
+
+# Uncomment for LESS source JavaScript files.
+#  js:
+#    bootstrap/js/affix.js: {}
+#    bootstrap/js/alert.js: {}
+#    bootstrap/js/button.js: {}
+#    bootstrap/js/carousel.js: {}
+#    bootstrap/js/collapse.js: {}
+#    bootstrap/js/dropdown.js: {}
+#    bootstrap/js/modal.js: {}
+#    bootstrap/js/tooltip.js: {}
+#    bootstrap/js/popover.js: {}
+#    bootstrap/js/scrollspy.js: {}
+#    bootstrap/js/tab.js: {}
+#    bootstrap/js/transition.js: {}
+
+# Uncomment for SASS source JavaScript files.
+#  js:
+#    bootstrap/assets/javascripts/bootstrap/affix.js: {}
+#    bootstrap/assets/javascripts/bootstrap/alert.js: {}
+#    bootstrap/assets/javascripts/bootstrap/button.js: {}
+#    bootstrap/assets/javascripts/bootstrap/carousel.js: {}
+#    bootstrap/assets/javascripts/bootstrap/collapse.js: {}
+#    bootstrap/assets/javascripts/bootstrap/dropdown.js: {}
+#    bootstrap/assets/javascripts/bootstrap/modal.js: {}
+#    bootstrap/assets/javascripts/bootstrap/tooltip.js: {}
+#    bootstrap/assets/javascripts/bootstrap/popover.js: {}
+#    bootstrap/assets/javascripts/bootstrap/scrollspy.js: {}
+#    bootstrap/assets/javascripts/bootstrap/tab.js: {}
+#    bootstrap/assets/javascripts/bootstrap/transition.js: {}

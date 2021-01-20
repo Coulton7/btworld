@@ -1,0 +1,48 @@
+<?php
+
+/**
+ * @file
+ * Bootstrap sub-theme.
+ *
+ * Place your custom PHP code in this file.
+ */
+
+ function betterworld_preprocess_page(&$vars) {
+     if (preg_match('~MSIE|Internet Explorer~i', $_SERVER['HTTP_USER_AGENT']) || (strpos($_SERVER['HTTP_USER_AGENT'], 'Trident/7.0; rv:11.0') !== false)) {
+      $origin =$_SERVER['HTTP_ORIGIN'];
+      $allowed_domains= [
+        'https://api.hubspot.com',
+        'https://forms.hubspot.com',
+      ];
+
+      if(in_array($origin, $allowed_domains)){
+        header('Access-Control-Allow-Origin: ' . $origin);
+      }
+    }
+ }
+
+ function betterworld_theme(){
+ 	$items=array();
+
+ 	$items['user_login']=array(
+ 	'render element' => 'form',
+ 	'path'=> drupal_get_path('theme', 'aesbased8').'/templates',
+ 	'template'=>'user_login',
+ 	'preprocess functions'=>array(
+ 	'aesbased8_preprocess_user_login'
+ 	),
+ 	);
+ 	return $items;
+ }
+
+
+ function betterworld_preprocess_maintenance_page(&$variables) {
+   if (isset($variables['db_is_active']) && !$variables['db_is_active']) {
+ // Template suggestion for offline site
+     $variables['theme_hook_suggestion'] = 'maintenance_page__offline';
+   }
+ else {
+ // Template suggestion for live site (in maintenance mode)
+     $variables['theme_hook_suggestion'] = 'maintenance_page';
+  }
+ }

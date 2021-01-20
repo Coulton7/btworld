@@ -1,0 +1,34 @@
+type: theme
+base theme: aesbased8
+core: 8.x
+core_version_requirement: ^8 || ^9
+version: 1.1
+
+name: 'Betterworld'
+description: 'Betterworld site theme'
+package: 'Bootstrap'
+
+  advertising_board: 'Advertising Board'
+  logo: 'Logo'
+  navigation: 'Navigation'
+  navigation_collapsible: 'Navigation (Collapsible)'
+  preface: 'Preface'
+  wavelower: 'Wavelower'
+  header: 'Top Bar'
+  highlighted: 'Highlighted'
+  help: 'Help'
+  content: 'Content'
+  sidebar_first: 'Primary'
+  sidebar_second: 'Secondary'
+  suffix: 'Suffix'
+  postscript_fir: 'Postscript First'
+  postscript_mid: 'Postscript Middle'
+  postscript_last: 'Postscript Last'
+  footer: 'Footer'
+  footer_lower: 'Footer Lower'
+  page_top: 'Page top'
+  page_bottom: 'Page bottom'
+
+libraries-extend:
+    bootstrap/framework:
+      - betterworld/framework
