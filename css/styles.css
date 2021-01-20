@@ -9,6 +9,8 @@
 
 .navbar-nav{
   padding-left: 0;
+  background-color: #4bb485;
+  color: #ffffff;
 }
 
 a.no-dash {
