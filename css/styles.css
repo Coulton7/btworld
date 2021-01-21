@@ -351,12 +351,12 @@ a:hover {
 }
 
 .page-header {
-  position: absolute;
+  position: relative;
   z-index: 3;
   overflow: hidden;
-  top: 45%;
-  left: 17%;
-  color: #ffffff;
+  /*top: 45%;
+  left: 17%;*/
+  color: #4bb485;
 }
 
 .page-header .banner-caption {
@@ -727,12 +727,12 @@ a.no-dash[aria-expanded='true'] .fas.fa-chevron-circle-down {
   }
 
   .page-header {
-    left: 0;
-    top: 36%;
+    /*left: 0;
+    top: 36%;*/
   }
 
   .page-header .banner-caption {
-    display: none;
+    /*display: none;*/
   }
 
   fieldset.form-columns-2 .hs-form-field, fieldset.form-columns-1 .hs-input {
@@ -842,8 +842,8 @@ a.no-dash[aria-expanded='true'] .fas.fa-chevron-circle-down {
   }
 
   .page-header {
-    left: 17%;
-    top: 45%;
+    /*left: 17%;
+    top: 45%;*/
   }
 
   .page-header .banner-caption {
@@ -851,8 +851,8 @@ a.no-dash[aria-expanded='true'] .fas.fa-chevron-circle-down {
   }
 
   .video-background .page-header {
-    top: 27%;
-    left: 17%;
+    /*top: 27%;
+    left: 17%;*/
   }
 
   .header-title-bottom {
@@ -1004,8 +1004,8 @@ a.no-dash[aria-expanded='true'] .fas.fa-chevron-circle-down {
   }
 
   .page-header {
-    left: 16%;
-    top: 45%;
+    /*left: 16%;
+    top: 45%;*/
   }
 
   .home-header {
@@ -1013,8 +1013,8 @@ a.no-dash[aria-expanded='true'] .fas.fa-chevron-circle-down {
   }
 
   .video-background .page-header {
-    top: 27%;
-    left: 16%;
+    /*top: 27%;
+    left: 16%;*/
   }
   .quotebox-1q-line {
     bottom: -2em;
@@ -1178,8 +1178,8 @@ a.no-dash[aria-expanded='true'] .fas.fa-chevron-circle-down {
   }
 
   .video-background .page-header {
-    left: 16%;
-    top: 45%;
+    /*left: 16%;
+    top: 45%;*/
   }
 }
 
