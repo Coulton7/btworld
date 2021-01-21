@@ -13,6 +13,10 @@
   color: #ffffff;
 }
 
+.footer{
+  padding-bottom: 0;
+}
+
 a.no-dash {
   border-bottom: none;
 }
