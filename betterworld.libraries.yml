@@ -10,7 +10,7 @@ framework:
       css/Testimonials.css: {}
       css/Footer-Dark.css: {}
       css/Article-List.css: {}
-      css/style.css: {}
+      css/styles.css: {}
   js:
     /themes/aesbased8/js/logoscroll.js: {}
     /themes/aesbased8/js/smooth-scroll.js: {}
