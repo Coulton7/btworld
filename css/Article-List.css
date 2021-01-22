@@ -16,6 +16,10 @@
   color: inherit;
 }
 
+.article-list h3 {
+  color: #535354
+}
+
 .article-list .intro {
   /*max-width: 500px;*/
   margin: 0 auto;
