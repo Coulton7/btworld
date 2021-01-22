@@ -29,6 +29,27 @@
   border-top: none;
 }
 
+a {
+  color: #4bb485;
+  border-bottom: 1px dashed transparent;
+}
+
+a:link {
+  color: #4bb485;
+  border-bottom: 1px dashed transparent;
+}
+
+a:hover {
+  color: #419c73;
+  border-bottom: 1px dashed #419c73;
+  text-decoration: none;
+}
+
+a:visited{
+  color: #4bb485;
+  border-bottom: 1px dashed transparent;
+}
+
 a.no-dash {
   border-bottom: none;
 }
@@ -253,27 +274,6 @@ a.no-dash:hover {
 
 .grey-background {
   background-color: #f2f2f2;
-}
-
-a {
-  color: #4bb485;
-  border-bottom: 1px dashed transparent;
-}
-
-a:link {
-  color: #4bb485;
-  border-bottom: 1px dashed transparent;
-}
-
-a:hover {
-  color: #419c73;
-  border-bottom: 1px dashed #419c73;
-  text-decoration: none;
-}
-
-a:visited{
-  color: #4bb485;
-  border-bottom: 1px dashed transparent;
 }
 
 .overlay-list li {
