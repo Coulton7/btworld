@@ -20,6 +20,10 @@
   color: #ffffff
 }
 
+.navbar-default .navbar-nav>li>a{
+  color: #ffffff;
+}
+
 .footer {
   padding-bottom: 0;
   border-top: none;
