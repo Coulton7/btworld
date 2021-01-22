@@ -272,6 +272,14 @@ a.no-dash:hover {
   color: #ffffff;
 }
 
+.btn-primary a{
+  color: #ffffff;
+}
+
+.btn-primary a:hover{
+  color: #ffffff;
+}
+
 .grey-background {
   background-color: #f2f2f2;
 }
