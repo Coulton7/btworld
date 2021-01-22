@@ -109,7 +109,9 @@
 			            		</button>
 											{% endif %}
 										</div>
-			        	</div>
+										{% if not navbar_attributes.hasClass(container) %}
+										</div>
+										{% endif %}
 								<div id="navbar-collapse" class="navbar-collapse collapse fullscreen">
 									{{ page.primary_menu }}
 
