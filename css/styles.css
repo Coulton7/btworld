@@ -242,11 +242,13 @@ a.no-dash:hover {
 .btn-primary {
   background-color: #4bb485;
   border: 1px solid #4bb485;
+  color: #ffffff;
 }
 
 .btn-primary:hover {
   background-color: #419c73;
   border: 1px solid #419c73;
+  color: #ffffff;
 }
 
 .grey-background {
