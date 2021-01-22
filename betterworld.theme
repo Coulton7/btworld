@@ -21,6 +21,13 @@
     }
  }
 
+ function betterworld_preprocess_page_title(&$variables) {
+   $node = \Drupal::request()->attributes->get('node');
+   if ($node && $node->hasField('field_subtitle') && !$node->field_subtitle->isEmpty()) {
+     $variables['subTitle'] = $variables['node']->get('field-subtitle')->value;
+   }
+ }
+
  function betterworld_theme(){
  	$items=array();
 
