@@ -22,8 +22,7 @@
  }
 
  function betterworld_preprocess_page_title(&$variables) {
-   $node = \Drupal::request()->attributes->get('node');
-   if ($node && $node->hasField('field_subtitle') && !$node->field_subtitle->isEmpty()) {
+   if ($variables['node']) {
      $variables['subTitle'] = $variables['node']->get('field_subtitle')->value;
    }
  }
