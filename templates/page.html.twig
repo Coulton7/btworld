@@ -182,7 +182,7 @@
 
 				%}
 				<div class="tablet-fix">
-          <section id="main-content" {{ body_attribute.addClass(main_structure_classes, "padding-top-2em") }}>
+          <section id="main-content" {{ body_attribute.addClass(main_structure_classes) }}>
 
 					{# Highlighted #}
 					{% if page.highlighted %}
@@ -197,8 +197,9 @@
 							{{ page.help }}
 						{% endblock %}
 					{% endif %}
-
-          {{ page.content }}
+					<div class="padding-top-2em">
+          	{{ page.content }}
+					</div>
         {% endblock %}
 			</section>
     </div>
