@@ -14,7 +14,7 @@
 }
 
 .navbar-default .navbar-nav>li>a:hover {
-  background-color: #357e5d;
+  background-color: #419c73;
   border-top: 4px solid #ffffff;
   border-bottom: none;
   color: #ffffff
@@ -264,9 +264,14 @@ a:link {
 }
 
 a:hover {
-  color: #4bb485;
-  border-bottom: 1px dashed #4bb485;
+  color: #419c73;
+  border-bottom: 1px dashed #419c73;
   text-decoration: none;
+}
+
+a:visited{
+  color: #4bb485;
+  border-bottom: 1px dashed transparent;
 }
 
 .overlay-list li {
