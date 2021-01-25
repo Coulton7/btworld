@@ -276,6 +276,10 @@ a.no-dash:hover {
    color: #ffffff;
 }
 
+.search-block .form-control:active::placeholder, .search-block .form-control:focus::placeholder{
+    color:#535354
+}
+
 .search-block{
   float: right!important;
   margin-right: 1em;
