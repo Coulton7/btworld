@@ -29,6 +29,10 @@
   border-top: none;
 }
 
+.breadcrumb-wrap{
+  background-color: #f2f2f2;
+}
+
 a {
   color: #4bb485;
   border-bottom: 1px dashed transparent;
