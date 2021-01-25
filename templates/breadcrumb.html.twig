@@ -10,23 +10,25 @@
  */
 #}
 {% if breadcrumb %}
+<div class="row grey-background">
   <div class="col-sm-10 col-sm-offset-1 col-lg-8 col-lg-offset-2">
-      <div class="breadcrumb-wrap">
-        <div class="container-fluid">
-          <div class="row">
-            <ol class="breadcrumb">
-              {% for item in breadcrumb %}
+    <div class="breadcrumb-wrap">
+      <div class="container-fluid">
+        <div class="row">
+          <ol class="breadcrumb">
+            {% for item in breadcrumb %}
               <li {{ item.attributes }}>
                 {% if item.url %}
-                <a href="{{ item.url }}">{{ item.text }}</a>
+                  <a href="{{ item.url }}">{{ item.text }}</a>
                 {% else %}
-                {{ item.text }}
+                  {{ item.text }}
                 {% endif %}
               </li>
-              {% endfor %}
-            </ol>
-          </div>
+            {% endfor %}
+          </ol>
         </div>
       </div>
+    </div>
   </div>
+</div>
 {% endif %}
