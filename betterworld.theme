@@ -24,9 +24,9 @@
  function betterworld_preprocess_page_title(&$variables) {
    $node = \Drupal::request()->attributes->get('node');
    if ($node && $node->hasField('field_subtitle') && !$node->field_subtitle->isEmpty()) {
-     $variables['subTitle'] = $node->get('field_subtitle')->value;
      $term = \Drupal\taxonomy\Entity\Term::load($node->get('field_subtitle')->target_id);
      $subTitle = $term->getName();
+     $variables['subTitle'] = $node->get('field_subtitle')->value;
      $variables['subTitle'] = $term->getName();
    }
  }
