@@ -23,6 +23,7 @@ framework:
     /themes/aesbased8/js/pdfcreator.js: {}
     /themes/aesbased8/js/vfs_fonts.js: {}
     /themes/aesbased8/js/pdf-button-hider.js: {}
+    js/sticky-scroll.js: {}
     dependencies:
       - core/jquery
 
