@@ -272,6 +272,10 @@ a.no-dash:hover {
   color: #ffffff;
 }
 
+.search-block .form-control::placeholder{
+   color: #ffffff;
+}
+
 .btn-primary a{
   color: #ffffff;
 }
