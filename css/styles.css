@@ -281,6 +281,10 @@ a.no-dash:hover {
   margin-right: 1em;
 }
 
+.search-block .form-control{
+  color:#535354;
+}
+
 .btn-primary a{
   color: #ffffff;
 }
