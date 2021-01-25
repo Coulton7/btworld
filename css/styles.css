@@ -260,13 +260,13 @@ a.no-dash:hover {
   max-width: 100% !important;
 }
 
-.btn-primary, .search-block.btn {
+.btn-primary, .search-block .btn {
   background-color: #4bb485;
   border: 1px solid #4bb485;
   color: #ffffff;
 }
 
-.btn-primary:hover, .search-block.btn:hover {
+.btn-primary:hover, .search-block .btn:hover {
   background-color: #419c73;
   border: 1px solid #419c73;
   color: #ffffff;
