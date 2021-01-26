@@ -13,39 +13,18 @@ framework:
       css/styles.css: {}
   js:
     /themes/aesbased8/js/logoscroll.js: {}
-    dependencies:
-      - core/jquery
     /themes/aesbased8/js/smooth-scroll.js: {}
-    dependencies:
-      - core/jquery
     /themes/aesbased8/js/fade-text.js: {}
-    dependencies:
-      - core/jquery
     /themes/aesbased8/js/contact-icon.js: {}
-    dependencies:
-      - core/jquery
     /themes/aesbased8/js/nav-btn.js: {}
-    dependencies:
-      - core/jquery
     /themes/aesbased8/js/reg-mark.js: {}
-    dependencies:
-      - core/jquery
     /themes/aesbased8/js/slider-options.js: {}
-    dependencies:
-      - core/jquery
     /themes/aesbased8/js/pdfmake.min.js: {}
-    dependencies:
-      - core/jquery
     /themes/aesbased8/js/pdfcreator.js: {}
-    dependencies:
-      - core/jquery
     /themes/aesbased8/js/vfs_fonts.js: {}
-    dependencies:
-      - core/jquery
     /themes/aesbased8/js/pdf-button-hider.js: {}
-    dependencies:
-      - core/jquery
     js/sticky-scroll.js: {}
+    
     dependencies:
       - core/jquery
 
