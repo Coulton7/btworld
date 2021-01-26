@@ -24,9 +24,6 @@ framework:
     /themes/aesbased8/js/vfs_fonts.js: {}
     /themes/aesbased8/js/pdf-button-hider.js: {}
     js/sticky-scroll.js: {}
-    
-    dependencies:
-      - core/jquery
 
 # Uncomment for LESS source JavaScript files.
 #  js:
