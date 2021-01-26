@@ -19,7 +19,7 @@ framework:
     /themes/aesbased8/js/nav-btn.js: {}
     /themes/aesbased8/js/reg-mark.js: {}
     /themes/aesbased8/js/slider-options.js: {}
-    /themes/aesbased8/js/pdfmake.min.js: {}
+    /themes/aesbased8/js/pdfmake.min.js: { minified: true }
     /themes/aesbased8/js/pdfcreator.js: {}
     /themes/aesbased8/js/vfs_fonts.js: {}
     /themes/aesbased8/js/pdf-button-hider.js: {}
