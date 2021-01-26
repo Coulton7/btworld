@@ -288,6 +288,8 @@ a.no-dash:hover {
 .search-block{
   float: right!important;
   margin-right: 1em;
+  position: relative;
+  transform: translate(-25%, 100%);
 }
 
 .search-block .form-control{
