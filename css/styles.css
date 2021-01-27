@@ -166,6 +166,11 @@ a.no-dash:hover {
   padding: 2em;
 }
 
+.sandy-background-banner{
+  background-image: url(/thems/images/sandy-back.jpg);
+  background-size: cover;
+}
+
 .ind-icons {
   position: absolute;
   top: -5em;
