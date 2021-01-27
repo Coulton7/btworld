@@ -1,6 +1,7 @@
 framework:
   css:
     theme:
+      /libraries/flexslider/flexslider.css: {}
       /themes/aesbased8/css/jquery.scrolling-tabs.min.css: {}
       /themes/aesbased8/css/chosen.css: {}
       /themes/aesbased8/css/fonts-style.css: {}
