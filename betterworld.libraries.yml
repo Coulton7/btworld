@@ -12,7 +12,7 @@ framework:
       css/Article-List.css: {}
       css/styles.css: {}
   js:
-    /libraries/flexslider/.jquery.flexslider-min.js: {}
+    /libraries/flexslider/jquery.flexslider-min.js: {}
     /themes/aesbased8/js/logoscroll.js: {}
     /themes/aesbased8/js/smooth-scroll.js: {}
     /themes/aesbased8/js/fade-text.js: {}
