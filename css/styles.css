@@ -295,6 +295,8 @@ a.no-dash:hover {
   margin-right: 1em;
   position: relative;
   height: auto;
+  transform: translate(-25%, 100%);
+
 }
 
 .search-block .form-control{
