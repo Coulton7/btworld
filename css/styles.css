@@ -327,6 +327,10 @@ a.no-dash:hover {
   background-color: #f2f2f2;
 }
 
+.panel-heading{
+  height: auto;
+}
+
 .overlay-list li {
   padding: 1em;
 }
