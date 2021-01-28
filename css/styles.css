@@ -331,6 +331,10 @@ a.no-dash:hover {
   height: auto;
 }
 
+.panel:last-child{
+    margin-right: 20px
+}
+
 .overlay-list li {
   padding: 1em;
 }
