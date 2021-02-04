@@ -303,11 +303,11 @@ a.no-dash:hover {
   color:#535354;
 }
 
-.btn-primary a{
+.btn-primary a, a.btn-primary{
   color: #ffffff;
 }
 
-.btn-primary a:hover{
+.btn-primary a:hover, a.btn-primary:hover{
   color: #ffffff;
 }
 
