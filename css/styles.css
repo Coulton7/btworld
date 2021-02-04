@@ -193,6 +193,10 @@ a.no-dash:hover {
   height: 100%;
 }
 
+.full-width{
+  width: 1005;
+}
+
 .green-text {
   color: #4bb485;
 }
