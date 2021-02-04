@@ -742,6 +742,14 @@ a.no-dash[aria-expanded='true'] .fas.fa-chevron-circle-down {
   box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 6px, rgba(0, 0, 0, 0.2) 0px 2px 24px;
 }
 
+.scroll-news .view-content{
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex-wrap: wrap;
+}
+
 @media screen and (min-width: 300px) {
   .slide-home-caption {
     margin-top: 15%;
