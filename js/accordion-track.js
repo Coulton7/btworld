@@ -1,3 +1,5 @@
+(function($) {
+
 $('.collapse').on('show.bs.collapse', function(e) {
   var $card = $(this).closest('.panel');
   var $open = $($(this).data('parent')).find('.collapse.in');
@@ -11,3 +13,4 @@ $('.collapse').on('show.bs.collapse', function(e) {
     scrollTop: $card.offset().top - additionalOffset
   }, 500);
 });
+})(jQuery);
