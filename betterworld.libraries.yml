@@ -25,6 +25,7 @@ framework:
     /themes/aesbased8/js/pdfcreator.js: {}
     /themes/aesbased8/js/vfs_fonts.js: {}
     /themes/aesbased8/js/pdf-button-hider.js: {}
+    js/accordion-track.js: {}
     js/sticky-scroll.js: {}
 
 # Uncomment for LESS source JavaScript files.
